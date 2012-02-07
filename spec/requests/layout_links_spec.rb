@@ -40,9 +40,7 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Sign up")
     response.should have_selector('a[href="/"]>img')
   end
-  end
-  end
   
-  end
+  
   
 end
